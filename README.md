@@ -14,7 +14,7 @@ In the project directory, run the following command to install the necessary Nod
 Start MongoDB in your local environment.
 
 In the project's root directory, start the Node.js server by running:
-
+This app also works as omegle for college students everytime they enter the college app dorm connect and want to talk to their peers
 'node app.js'
 Open a web browser and navigate to http://localhost:3000.
 Using Dorm Connect
