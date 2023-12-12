@@ -1,0 +1,58 @@
+    .fredoka-font {font-family: 'Marker Felt', fantasy;}
+     body{font-family: 'Merienda', sherif; color: #21406A;font-size: 14px;font-weight: 400;}
+     .h100 {height: 100vh;}
+     .header-wrapper {position: absolute; top:0; width: 80%; padding:20px 0;  }
+     .pt50 {padding-top: 50px;}
+     .pb100 {padding-bottom: 50px; }
+     .banner-content {padding: 0;position: absolute;top: 50%; width: 100%;-webkit-transform: translateY(-50%);-moz-transform: translateY(-50%);-ms-transform: translateY(-50%);-o-transform: translateY(-50%);transform: translateY(-50%);}
+     .bscover {background-size: cover; background-position: center bottom;}
+     .title-text {font-size: 62px; line-height: 1.23;color: #716C6C; }
+     .title-text span {color: #5D87C1;}
+     .title-text2 {font-size: 50px; font-weight: 700; line-height: 1.2;color: #5D87C1; }
+
+     .landing {background-color: #fff}
+
+     .logo {text-align: left;display: -webkit-box;display: -ms-flexbox;display: flex;-webkit-box-align: center;-ms-flex-align: center;align-items: center; white-space: nowrap;line-height: 45px; }
+     .logo i {font-size: 35px; margin-right: 5px; color: #21406A !important; }
+     .logo span {font-size: 30px; color: #5D87C1;}
+     
+     .btn {font-size: 11px; letter-spacing: 1px; font-weight: 600; }
+     .btn-lg {padding: 18px 55px; }
+     p {line-height: 30px;  }
+    
+     .banner-wrapper h4 {font-weight: 700; font-size: 50px; display: block; margin-bottom: 10px; margin-right: 40px; }
+     .banner-wrapper h4 span {display: block; font-size: 12px;font-weight: 600; line-height: 20px; }
+     .btn-primary {
+         color: #fff;
+         background-color: #21406A;
+         border-color: #21406A;
+     }
+     .btn-primary {
+         color: #fff;
+         background-color: #21406A;
+         border-color: #21406A;
+     }
+     .btn-primary:hover{
+        background-color: #5D87C1;
+        border-color: #5D87C1;
+    
+    }
+
+     @media (max-width: 1500px) {
+         .title-text {font-size: 48px; margin-top: 10% !important; margin-bottom: 40px !important;}
+         .btn-lg {padding: 15px 40px;}
+         .banner-wrapper h4 {font-size: 38px; }
+         .title-text2 {font-size: 45px; }
+     }
+     @media (max-width: 1300px) {
+         .bscover {background-repeat: no-repeat; background-position: center center !important;}
+     }
+     @media (max-width: 1024px) {
+         .title-text { font-size: 32px; }
+         .banner-wrapper {    background-position: top left 50% !important;  }
+     }
+     @media (max-width: 768px) {
+         .banner-wrapper h4 {font-size: 32px; margin-bottom: 0px; margin-right: 20px;  }
+         .banner-wrapper h4 span {font-size: 11px; color: #fff; line-height: 16px; }
+         .title-text2 {font-size: 30px; }
+     }
